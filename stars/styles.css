@@ -1,0 +1,35 @@
+body {min-height:600px; min-width:600px;}
+
+#container {
+}
+.control {
+	height:16px;
+	float:left;
+	clear:both;
+}
+.star
+{
+	width:16px;
+	height:16px;
+	background:url("stars.png") 0 0 no-repeat;
+	float:left;
+	margin:0 0 0 2px;
+	cursor:pointer;
+}
+.fixed .star
+{
+	cursor:default;
+}
+.star:first
+{
+	margin:0;
+}
+.star-select
+{
+	background-position:0 -16px;
+}
+.sep
+{
+	height:16px;
+	margin:20px;
+}
